@@ -1,17 +1,29 @@
 <template>
-  <v-container>
+  <v-container class="publication">
     <div class="publication__title">Publications</div>
     <v-row>
       <v-col md="3">
         <v-card class="publication__card" eleveted>
           <img src="@/assets/img/google_cloud.png" class="img-fluid" />
-          <v-card-title class="justify-center">Medium</v-card-title>
+          <v-card-title class="publication__card__title">Medium</v-card-title>
         </v-card>
       </v-col>
       <v-col md="3">
         <v-card class="publication__card" eleveted>
           <img src="@/assets/img/kubernetes.png" class="img-fluid" />
-          <v-card-title class="justify-center">Future Tech Blog</v-card-title>
+          <v-card-title class="publication__card__title">Future Tech Blog</v-card-title>
+        </v-card>
+      </v-col>
+      <v-col md="3">
+        <v-card class="publication__card" eleveted>
+          <img src="@/assets/img/kubernetes.png" class="img-fluid" />
+          <v-card-title class="publication__card__title">Qiita</v-card-title>
+        </v-card>
+      </v-col>
+      <v-col md="3">
+        <v-card class="publication__card" eleveted>
+          <img src="@/assets/img/kubernetes.png" class="img-fluid" />
+          <v-card-title class="publication__card__title">Journal Paper</v-card-title>
         </v-card>
       </v-col>
     </v-row>
@@ -43,6 +55,9 @@ export default {
 
   &__card {
     margin: 0;
+    &__title {
+      font-size: 1.5rem;
+    }
   }
 }
 </style>

@@ -26,3 +26,14 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+@import '@/assets/sass/size.scss';
+
+#app {
+  // font-family: 'Noto Sans JP', 'Avenir', Helvetica, Arial, sans-serif;
+  // width: 1600px;
+  // margin: 50px;
+}
+
+</style>
