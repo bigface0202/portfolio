@@ -3,7 +3,7 @@
     <v-main>
       <about-me />
       <skill-list />
-      <publication-list />
+      <media-list />
       <my-career />
     </v-main>
   </v-app>
@@ -12,7 +12,7 @@
 <script>
 import AboutMe from '@/components/aboutme/AboutMe.vue'
 import SkillList from '@/components/skill/SkillList.vue'
-import PublicationList from '@/components/publication/PublicationList.vue'
+import MediaList from '@/components/media/MediaList.vue'
 import MyCareer from '@/components/career/MyCareer.vue'
 
 export default {
@@ -21,7 +21,7 @@ export default {
   components: {
     AboutMe,
     SkillList,
-    PublicationList,
+    MediaList,
     MyCareer
   }
 }
