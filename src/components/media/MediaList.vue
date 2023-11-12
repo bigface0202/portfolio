@@ -1,6 +1,6 @@
 <template>
   <v-container class="publication">
-    <div class="publication__title">Publications</div>
+    <div class="publication__title">Media</div>
     <v-row md="3">
       <media-item v-for="md in media" :key="md.title + index" :title="md.title" :url="md.url" :image="md.image" />
     </v-row>
