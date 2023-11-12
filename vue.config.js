@@ -7,6 +7,6 @@ module.exports = defineConfig({
     }
   },
   outputDir: 'docs',
-  assetsDir: './',
+  assetsDir: 'assets',
   publicPath: process.env.NODE_ENV === 'production' ? '/portfolio/' : '/'
 })
