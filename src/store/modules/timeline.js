@@ -4,83 +4,74 @@ export default {
     timeline: [
       {
         id: 't1',
-        year: '1993年2月',
-        school: '福井県越前市',
-        description: '生誕',
+        year: 'Feb., 1993',
+        org: 'Fukui, Japan',
+        desc: 'Borned',
         icon: 'mdi-baby',
         color: 'blue lighten-2',
         side: 'right'
       },
       {
         id: 't2',
-        year: '2013年3月',
-        school: '福井工業高等専門学校',
-        description: '電気電子工学科卒業',
+        year: 'Mar., 2013',
+        org: 'Fukui National College of Technology, Electrical and Electronics Engineering',
+        desc: 'Associate degree',
         icon: 'mdi-human-handsup',
         color: 'orange lighten-2',
         side: 'left'
       },
       {
         id: 't3',
-        year: '2013年4月',
-        school: '広島大学',
-        description: '工学部二類3年時編入学',
-        icon: 'mdi-school',
-        color: 'green lighten-2',
-        side: 'right'
+        year: 'Mar., 2015',
+        org: 'Hiroshima University, Cluster2(Electrical, Electronic and Systems Engineering)',
+        desc: 'Bachelor\'s degree(Engineering)',
+        icon: 'mdi-human-handsup',
+        color: 'orange lighten-2',
+        side: 'left'
       },
       {
         id: 't4',
-        year: '2015年3月',
-        school: '広島大学',
-        description: '工学部二類卒業:学士（工学）',
+        year: 'Mar., 2017',
+        org: 'Hiroshima University, Graduate School of Engineering, System-Cybernetics',
+        desc: 'Master\'s degree(Engineering)',
         icon: 'mdi-human-handsup',
         color: 'orange lighten-2',
         side: 'left'
       },
       {
         id: 't5',
-        year: '2015年4月',
-        school: '広島大学大学院',
-        description: '工学研究科システムサイバネティクス専攻修士課程入学',
-        icon: 'mdi-school',
+        year: 'Apr., 2017',
+        org: 'Japan Society for the Promotion of Science',
+        desc: 'DC1 Fellowship',
+        icon: 'mdi-office-building',
         color: 'green lighten-2',
         side: 'right'
       },
       {
         id: 't6',
-        year: '2017年3月',
-        school: '広島大学',
-        description: '工学研究科システムサイバネティクス専攻修了:修士（工学）',
+        year: 'Mar., 2020',
+        org: 'Hiroshima University, Graduate School of Engineering, System-Cybernetics',
+        desc: 'Ph.D. degree(Engineering)',
         icon: 'mdi-human-handsup',
         color: 'orange lighten-2',
         side: 'left'
       },
       {
         id: 't7',
-        year: '2017年4月',
-        school: '広島大学大学院',
-        description: '工学研究科システムサイバネティクス専攻博士課程入学',
-        icon: 'mdi-school',
-        color: 'green lighten-2',
-        side: 'right'
-      },
-      {
-        id: 't8',
-        year: '2017年4月',
-        school: '日本学術振興会',
-        description: '特別研究員（DC1）採用',
+        year: 'Apr., 2020',
+        org: 'Global Walkers, Inc.',
+        desc: 'AI Developer',
         icon: 'mdi-office-building',
         color: 'green lighten-2',
         side: 'right'
       },
       {
-        id: 't9',
-        year: '2020年3月',
-        school: '広島大学大学院',
-        description: '工学研究科システムサイバネティクス専攻修了:博士（工学）',
-        icon: 'mdi-human-handsup',
-        color: 'orange lighten-2',
+        id: 't8',
+        year: 'Feb., 2022',
+        org: 'Future Architect, Inc.',
+        desc: 'DevOps Engineer',
+        icon: 'mdi-office-building',
+        color: 'green lighten-2',
         side: 'left'
       }
     ]
