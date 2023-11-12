@@ -2,7 +2,7 @@
   <v-container class="publication">
     <div class="publication__title">Media</div>
     <v-row md="3">
-      <media-item v-for="md in media" :key="md.title + index" :title="md.title" :url="md.url" :image="md.image" />
+      <media-item v-for="md in media" :key="md.title + index" :media="md" />
     </v-row>
   </v-container>
 </template>

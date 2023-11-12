@@ -1,29 +1,14 @@
 <template>
   <v-app>
     <v-main>
-      <about-me />
-      <skill-list />
-      <media-list />
-      <my-career />
+      <router-view />
     </v-main>
   </v-app>
 </template>
 
 <script>
-import AboutMe from '@/components/aboutme/AboutMe.vue'
-import SkillList from '@/components/skill/SkillList.vue'
-import MediaList from '@/components/media/MediaList.vue'
-import MyCareer from '@/components/career/MyCareer.vue'
-
 export default {
-  name: 'App',
-
-  components: {
-    AboutMe,
-    SkillList,
-    MediaList,
-    MyCareer
-  }
+  name: 'App'
 }
 </script>
 

@@ -2,19 +2,24 @@
   <div id="app">
     <v-card class="media-card" 
             eleveted
-            :href="url"
-            target="_blank"
+            :href=media.url
+            :target = "media.external ? '_blank' : ''"
             rel="noopener">
-      <v-img :src="image" class="media-card__container__img" cover />
+      <v-img :src="media.image" class="media-card__container__img" cover />
       <v-card-title class="media-card__title">
-        {{ title }}
+        {{ media.title }}
       </v-card-title>
     </v-card>
   </div>
 </template>
 <script>
 export default {
-  props: ['title', 'image', 'url']
+  props: {
+    media: {
+      type: Object,
+      required: true
+    }
+  }
 }
 </script>
 <style lang="scss" scoped>
