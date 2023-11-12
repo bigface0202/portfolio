@@ -22,6 +22,7 @@ export default {
 
 .portfolio {
   height: 100%;
+  margin: 0 15%;
   &__header{
     z-index: 1;
     top:0;
