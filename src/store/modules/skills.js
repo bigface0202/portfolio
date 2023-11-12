@@ -5,42 +5,37 @@ export default {
       {
         title: 'Google Cloud',
         years: '2 years',
-        image: require('@/assets/img/google_cloud.png')
+        icon: 'mdi-google-cloud'
       },
       {
         title: 'Kubernetes',
         years: '2 years',
-        image: require('@/assets/img/kubernetes.png')
+        icon: 'mdi-kubernetes'
       },
       {
         title: 'Terraform',
         years: '2 years',
-        image: require('@/assets/img/terraform.png')
-      },
-      {
-        title: 'Jenkins',
-        years: '2 years',
-        image: require('@/assets/img/jenkins.png')
+        icon: 'mdi-terraform'
       },
       {
         title: 'Python',
         years: '2 years',
-        image: require('@/assets/img/python.png')
+        icon: 'mdi-language-python'
       },
       {
         title: 'Golang',
         years: '1 year',
-        image: require('@/assets/img/go.svg')
+        icon: 'mdi-language-go'
       },
       {
         title: 'C++',
         years: '1 year',
-        image: require('@/assets/img/cpp.png')
+        icon: 'mdi-language-cpp'
       },
       {
         title: 'Vue.js',
         years: '1 year',
-        image: require('@/assets/img/vue.png')
+        icon: 'mdi-vuejs'
       }
     ]
   }),

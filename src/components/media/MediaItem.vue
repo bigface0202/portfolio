@@ -26,11 +26,7 @@ export default {
 @import '@/assets/sass/size.scss';
 .media-card {
   margin: $unit_size * 2;
-  width: 200px;
-  &__title {
-    font-size: 1.5rem;
-    text-align: left;
-  }
+  width: 220px;
   &__container {
     display: flex;
     justify-content: center;
@@ -41,11 +37,7 @@ export default {
   }
   &__title {
     text-align: center;
-    font-size: 1.5rem;
-  }
-  &__text {
-    text-align: center;
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
 }
 </style>

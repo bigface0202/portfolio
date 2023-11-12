@@ -60,7 +60,7 @@ export default {
         id: 't7',
         year: 'Apr., 2020',
         org: 'Global Walkers, Inc.',
-        desc: 'AI Developer',
+        desc: 'Image Processing/AI Developer',
         icon: 'mdi-office-building',
         color: 'green lighten-2',
         side: 'right'
@@ -69,7 +69,7 @@ export default {
         id: 't8',
         year: 'Feb., 2022',
         org: 'Future Architect, Inc.',
-        desc: 'DevOps Engineer',
+        desc: 'Google Cloud/DevOps Engineer',
         icon: 'mdi-office-building',
         color: 'green lighten-2',
         side: 'left'
