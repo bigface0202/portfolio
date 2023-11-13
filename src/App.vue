@@ -2,17 +2,35 @@
   <v-app class="portfolio">
     <v-main>
       <app-header class="portfolio__header" />
-      <router-view class="portfolio__view"/>
+      <about-me id="me" />
+      <v-divider />
+      <skill-list id="skill" />
+      <v-divider />
+      <media-list id="media" />
+      <v-divider />
+      <my-career id="career" />
+      <v-divider />
+      <papers-list id="paper" />
     </v-main>
   </v-app>
 </template>
 
 <script>
 import AppHeader from "@/components/common/AppHeader.vue"
+import AboutMe from '@/components/aboutme/AboutMe.vue'
+import SkillList from '@/components/skill/SkillList.vue'
+import MediaList from '@/components/media/MediaList.vue'
+import MyCareer from '@/components/career/MyCareer.vue'
+import PapersList from '@/components/papers/PapersList.vue'
 export default {
   name: 'App',
   components: {
-    AppHeader
+    AppHeader,
+    AboutMe,
+    SkillList,
+    MediaList,
+    MyCareer,
+    PapersList
   }
 }
 </script>

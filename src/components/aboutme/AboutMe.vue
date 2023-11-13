@@ -56,7 +56,8 @@
 @import '@/assets/sass/size.scss';
 
 .about-me {
-  padding: $unit_size*2 0;
+  padding-top: 30px;
+  // padding: $unit_size*2 0;
   margin: 0 auto;
   &__col {
     // display: flex;
