@@ -2,11 +2,15 @@ export default {
   navItems: [
     {
       name: 'PROFILE',
-      url: '/home'
+      url: '#me'
+    },
+    {
+      name: 'SKILL',
+      url: '#skill'
     },
     {
       name: 'MEDIA',
-      url: '/home',
+      url: '#media',
       children: [
         {
           name: 'Medium',
@@ -25,10 +29,14 @@ export default {
         },
         {
           name: 'Journal Papers',
-          url: '/papers',
+          url: '#paper',
           external: false
         }
       ]
+    },
+    {
+      name: 'Career',
+      url: '#career'
     }
   ]
 }

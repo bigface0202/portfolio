@@ -1,6 +1,6 @@
 <template>
-  <v-container class="publication">
-    <div class="publication__title">Media</div>
+  <v-container class="media">
+    <h2 class="media__title">Media</h2>
     <v-row md="3">
       <media-item v-for="md in media" :key="md.title + index" :media="md" />
     </v-row>
@@ -22,12 +22,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.publication {
+.media {
+  padding-top: 50px;
   &__title {
-    font-size: 2rem;
-    text-align: left;
+    font-weight: normal;
   }
-
   &__contents {
     justify-content: center;
     margin-top: 20px;

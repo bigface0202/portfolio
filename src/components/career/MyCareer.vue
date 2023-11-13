@@ -1,6 +1,6 @@
 <template>
   <v-container class="career">
-    <div class="career__title">Career</div>
+    <h2 class="career__title">Career</h2>
     <v-timeline>
       <v-timeline-item v-for="tl in timeline" :key="tl.id" :timeline="tl" v-bind:dot-color="tl.color">
         <v-card>
@@ -41,9 +41,9 @@ export default {
 @import '@/assets/sass/size.scss';
 
 .career {
+  padding: 50px 0;
   &__title {
-    font-size: 2rem;
-    margin-bottom: $unit_size * 2;
+    font-weight: normal;
   }
 }
 </style>

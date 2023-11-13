@@ -1,6 +1,6 @@
 <template>
-  <v-container>
-    <div class="skill__title">Skills</div>
+  <v-container class="skill">
+    <h2 class="skill__title">Skills</h2>
     <v-row md="3">
       <skill-item v-for="skill in skills" :key="skill.title + index" :skill="skill" />
     </v-row>
@@ -22,9 +22,9 @@ export default {
 </script>
 <style lang="scss" scoped>
 .skill {
+  padding-top: 50px;
   &__title {
-    font-size: 2rem;
-    text-align: left;
+    font-weight: normal;
   }
 
   &__contents {

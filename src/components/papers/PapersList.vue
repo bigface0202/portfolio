@@ -1,7 +1,7 @@
 <template>
   <section class="papers">
     <!-- <paper-filter class="papers__filter" @change-filter="setFilters" /> -->
-    <v-divider />
+    <h2 class="papers__title">Publications</h2>
     <ul class="papers__item">
       <div class="paper__item__content" v-if="activeFilters.paper" flat>
         <h3 class="papers__item__content__title">Journal Paper</h3>
@@ -75,12 +75,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '@/assets/sass/colors.scss';
 
 .papers {
   width: 100%;
-  padding: 15px;
-  background: $concept_lighten_color;
+  padding-top: 50px;
+  &__title {
+    font-weight: normal;
+  }
   &__item {
     padding: 0;
     margin: 2rem auto;
@@ -88,7 +89,6 @@ export default {
     &__content {
       &__title {
         font-weight: normal;
-        color: $concept_color;
       }
     }
   }

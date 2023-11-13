@@ -19,12 +19,6 @@ export default {
         url: 'https://future-architect.github.io/authors/%E5%B2%B8%E4%B8%8B%E5%84%AA%E4%BB%8B/',
         image: 'https://future-architect.github.io/ogp_techblog.jpg',
         external: true
-      },
-      {
-        title: 'Journal Papers',
-        url: '/papers',
-        image: require('@/assets/img/journal_paper.svg'),
-        external: false
       }
     ]
   }),
