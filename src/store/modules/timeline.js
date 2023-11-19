@@ -8,35 +8,31 @@ export default {
         org: 'Fukui, Japan',
         desc: 'Borned',
         icon: 'mdi-baby',
-        color: 'blue lighten-2',
-        side: 'right'
+        color: 'blue lighten-2'
       },
       {
         id: 't2',
         year: 'Mar., 2013',
         org: 'Fukui National Col. of Tech., Electrical and Electronics Eng.',
         desc: 'Associate degree',
-        icon: 'mdi-human-handsup',
-        color: 'orange lighten-2',
-        side: 'left'
+        icon: 'mdi-school',
+        color: 'orange lighten-2'
       },
       {
         id: 't3',
         year: 'Mar., 2015',
         org: 'Hiroshima Univ., Electrical, Electronic and Systems Eng.',
         desc: 'Bachelor(Engineering)',
-        icon: 'mdi-human-handsup',
-        color: 'orange lighten-2',
-        side: 'left'
+        icon: 'mdi-school',
+        color: 'orange lighten-2'
       },
       {
         id: 't4',
         year: 'Mar., 2017',
         org: 'Hiroshima Univ., Grad. School of Engineering, System-Cybernetics',
         desc: 'Master(Engineering)',
-        icon: 'mdi-human-handsup',
-        color: 'orange lighten-2',
-        side: 'left'
+        icon: 'mdi-school',
+        color: 'orange lighten-2'
       },
       {
         id: 't5',
@@ -44,17 +40,15 @@ export default {
         org: 'JSPS',
         desc: 'DC1 Fellowship',
         icon: 'mdi-office-building',
-        color: 'green lighten-2',
-        side: 'right'
+        color: 'green lighten-2'
       },
       {
         id: 't6',
         year: 'Mar., 2020',
         org: 'Hiroshima Univ., Grad. School of Engineering, System-Cybernetics',
         desc: 'Ph.D.(Engineering)',
-        icon: 'mdi-human-handsup',
-        color: 'orange lighten-2',
-        side: 'left'
+        icon: 'mdi-school',
+        color: 'orange lighten-2'
       },
       {
         id: 't7',
@@ -62,8 +56,7 @@ export default {
         org: 'Global Walkers, Inc.',
         desc: 'Image Processing/AI Developer',
         icon: 'mdi-office-building',
-        color: 'green lighten-2',
-        side: 'right'
+        color: 'green lighten-2'
       },
       {
         id: 't8',
@@ -71,8 +64,7 @@ export default {
         org: 'Future Architect, Inc.',
         desc: 'IT Consultant',
         icon: 'mdi-office-building',
-        color: 'green lighten-2',
-        side: 'left'
+        color: 'green lighten-2'
       }
     ]
   }),

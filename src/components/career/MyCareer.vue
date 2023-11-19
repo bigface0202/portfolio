@@ -1,11 +1,10 @@
 <template>
   <v-container class="career">
     <h2 class="career__title">Career</h2>
-    <v-timeline>
-      <v-timeline-item v-for="tl in timeline" :key="tl.id" :timeline="tl" v-bind:dot-color="tl.color">
-        <v-card>
+    <v-timeline class="career__timeline" side="end">
+      <v-timeline-item class="career__timeline__item" v-for="tl in timeline" :key="tl.id" :timeline="tl" v-bind:dot-color="tl.color" v-bind:icon="tl.icon">
+        <v-card class="career__timeline__item__card">
           <v-card-title v-bind:class="tl.color">
-            <v-icon dark size="32" class="mr-4">{{ tl.icon }}</v-icon>
             {{ tl.year }}
           </v-card-title>
           <v-container>
@@ -44,6 +43,14 @@ export default {
   padding: 50px 0;
   &__title {
     font-weight: normal;
+  }
+  &__timeline {
+    margin-top: 20px;
+    &__item {
+      &__card {
+        width: 220px;
+      }
+    }
   }
 }
 </style>
