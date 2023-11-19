@@ -9,7 +9,7 @@
     <v-divider />
     <my-career id="career" class="portfolio__section" />
     <v-divider />
-    <papers-list id="paper" class="portfolio__section" />
+    <papers-list id="publications" class="portfolio__section" />
   </v-app>
 </template>
 
