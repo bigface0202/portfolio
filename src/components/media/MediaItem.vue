@@ -1,16 +1,12 @@
 <template>
-  <div id="app">
-    <v-card class="media-card" 
-            eleveted
-            :href=media.url
-            :target = "media.external ? '_blank' : ''"
-            rel="noopener">
-      <v-img :src="media.image" class="media-card__container__img" cover />
-      <v-card-title class="media-card__title">
-        {{ media.title }}
-      </v-card-title>
-    </v-card>
-  </div>
+  <v-card class="media-card" 
+          eleveted
+          :href=media.url
+          :target = "media.external ? '_blank' : ''"
+          rel="noopener">
+    <v-img :src="media.image" class="media-card__img" cover />
+    <v-card-text class="media-card__title">{{ media.title }}</v-card-text>
+  </v-card>
 </template>
 <script>
 export default {
@@ -27,17 +23,12 @@ export default {
 .media-card {
   margin: $unit_size * 2;
   width: 220px;
-  &__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    &__img {
+  &__img {
       height: 100px;
-    }
   }
-  &__title {
+  &__text {
     text-align: center;
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 }
 </style>

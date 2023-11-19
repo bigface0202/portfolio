@@ -1,7 +1,7 @@
 <template>
   <v-container class="skill">
     <h2 class="skill__title">Skills</h2>
-    <v-row md="3">
+    <v-row class="skill__contents">
       <skill-item v-for="skill in skills" :key="skill.title + index" :skill="skill" />
     </v-row>
   </v-container>
@@ -26,19 +26,13 @@ export default {
   &__title {
     font-weight: normal;
   }
-
   &__contents {
     justify-content: center;
     margin-top: 20px;
     text-align: center;
-
     &-text {
       word-wrap: break-word;
     }
-  }
-
-  &__card {
-    margin: 0;
   }
 }
 </style>

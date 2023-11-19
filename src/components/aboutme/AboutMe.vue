@@ -1,56 +1,59 @@
 <template>
-  <v-row class="about-me">
-    <v-col class="about-me__col">
-      <v-img class="about-me__col__img" :src="require('@/assets/img/me.jpg')" />
-    </v-col>
-    <v-col class="about-me__col">
-      <v-row>
-        <v-card flat outlined class="about-me__card">
-          <v-card-title class="about-me__title">
-            Name
-          </v-card-title>
-          <v-card-text class="about-me__text">
-            Yusuke Enami<br>
-            (Yusuke Kishishita)
-          </v-card-text>
-        </v-card>
-      </v-row>
-      <v-row>
-        <v-card flat outlined class="about-me__card">
-          <v-card-title class="about-me__title">
-            Hobby
-          </v-card-title>
-          <v-card-text class="about-me__text">
-            Workout/Netflix/CarDriving/Hiking
-          </v-card-text>
-        </v-card>
-      </v-row>
-    </v-col>
-    <v-col class="about-me__col">
-      <v-row>
-        <v-card flat outlined class="about-me__card">
-          <v-card-title class="about-me__title">
-            Working at
-          </v-card-title>
-          <v-card-text class="about-me__text">
-            Future Architect, inc.
-          </v-card-text>
-        </v-card>
-      </v-row>
-      <v-row>
-        <v-card flat class="about-me__card">
-          <v-card-title class="about-me__title">
-            Contact
-          </v-card-title>
-          <v-card-text class="about-me__text">
-            <v-card flat title="@bigface0202" prepend-icon="mdi-twitter" href="https://twitter.com/bigface0202" target="_blank" rel="noopener"/>
-            <v-card flat title="Yusuke Kishishita" prepend-icon="mdi-linkedin" href="https://www.linkedin.com/in/yusuke-kishishita-56197b181/" target="_blank" rel="noopener"/>
-          </v-card-text>
-        </v-card>
-      </v-row>
-    </v-col>
-  </v-row>
+  <v-container class="about-me">
+    <v-row class="about-me__row">
+      <v-col class="about-me__row__col">
+        <v-img class="about-me__row__col__img" :src="require('@/assets/img/me.jpg')" cover/>
+      </v-col>
+      <v-col class="about-me__row__col">
+        <v-row>
+          <content-card title="Name" text="Yusuke Enami" />
+        </v-row>
+        <v-row>
+          <content-card title="Hobby" text="Workout/Netflix/CarDriving/Hiking" />
+        </v-row>
+        <v-row>
+          <content-card title="Working at" text="Future Architect, inc." />
+        </v-row>
+        <v-row>
+          <v-card flat>
+            <v-card-title>Contact</v-card-title>
+            <v-card-text>
+              <v-row align="center" no-gutters>
+                <v-col>
+                  <v-icon>mdi-twitter</v-icon>
+                </v-col>
+                <v-col>
+                  @bigface0202
+                </v-col>
+              </v-row>
+              <v-row align="center" no-gutters>
+                <v-col>
+                  <v-icon>mdi-linkedin</v-icon>
+                </v-col>
+                <v-col>
+                  Yusuke Kishishita
+                </v-col>
+              </v-row>
+            </v-card-text>
+          </v-card>
+          <v-card flat title="@bigface0202" prepend-icon="mdi-twitter" href="https://twitter.com/bigface0202" target="_blank" rel="noopener"/>
+        </v-row>
+        <v-row>
+          <v-card flat title="Yusuke Kishishita" prepend-icon="mdi-linkedin" href="https://www.linkedin.com/in/yusuke-kishishita-56197b181/" target="_blank" rel="noopener"/>
+        </v-row>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
+
+<script>
+import ContentCard from "./ContentCard.vue"
+export default {
+  components: {
+    ContentCard
+  }
+}
+</script>
 
 <style lang="scss" scoped>
 @import '@/assets/sass/size.scss';
@@ -59,23 +62,18 @@
   padding-top: 30px;
   // padding: $unit_size*2 0;
   margin: 0 auto;
-  &__col {
-    // display: flex;
-    align-items: center;
-    &__img {
-      height: 250px;
-      width: 250px;
-      margin: $unit_size*2;
-      border-radius: 50%;
-      object-fit: cover;
+  &__row {
+    justify-content: center;
+    &__col {
+      flex-grow: 0;
+      margin: 0 5%;
+      &__img {
+        width: 150px;
+        margin: $unit_size*2;
+        border-radius: 50%;
+        align-items: center;
+      }
     }
-  }
-  &__card {
-    height: 200px;
-  }
-  &__title {
-    font-size: 1.25rem;
-    margin-bottom: $unit_size * 2;
   }
   &__text {
     font-size: 1.25rem;

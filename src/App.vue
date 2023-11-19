@@ -1,17 +1,15 @@
 <template>
   <v-app class="portfolio">
-    <v-main>
-      <app-header class="portfolio__header" />
-      <about-me id="me" />
-      <v-divider />
-      <skill-list id="skill" />
-      <v-divider />
-      <media-list id="media" />
-      <v-divider />
-      <my-career id="career" />
-      <v-divider />
-      <papers-list id="paper" />
-    </v-main>
+    <app-header class="portfolio__header" />
+    <about-me id="me" class="portfolio__section" />
+    <v-divider />
+    <skill-list id="skill" class="portfolio__section" />
+    <v-divider />
+    <media-list id="media" class="portfolio__section" />
+    <v-divider />
+    <my-career id="career" class="portfolio__section" />
+    <v-divider />
+    <papers-list id="paper" class="portfolio__section" />
   </v-app>
 </template>
 
@@ -37,10 +35,14 @@ export default {
 
 <style lang="scss">
 @import '@/assets/sass/size.scss';
+html, body {
+  // height:100vh;
+  // width: 100vw;
+}
 
 .portfolio {
-  height: 100%;
-  margin: 0 15%;
+  // height: 100vh;
+  // width: 100vw;
   &__header{
     z-index: 1;
     top:0;
@@ -50,8 +52,7 @@ export default {
 
 #app {
   font-family: 'Noto Sans JP', 'Avenir', Helvetica, Arial, sans-serif;
-  // width: 1600px;
-  // margin: 50px;
+  margin: 0 10%;
 }
 
 </style>

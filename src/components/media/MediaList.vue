@@ -1,7 +1,7 @@
 <template>
   <v-container class="media">
     <h2 class="media__title">Media</h2>
-    <v-row md="3">
+    <v-row class="media__contents">
       <media-item v-for="md in media" :key="md.title + index" :media="md" />
     </v-row>
   </v-container>
@@ -31,16 +31,8 @@ export default {
     justify-content: center;
     margin-top: 20px;
     text-align: center;
-
     &-text {
       word-wrap: break-word;
-    }
-  }
-
-  &__card {
-    margin: 0;
-    &__title {
-      font-size: 1.5rem;
     }
   }
 }

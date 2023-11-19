@@ -1,5 +1,8 @@
 <template>
-  <v-card class="skill-card" eleveted :title="skill.title" :prepend-icon="skill.icon">
+  <v-card class="skill-card" 
+          eleveted 
+          :title="skill.title" 
+          :prepend-icon="skill.icon">
     <v-card-text class="skill-card__text">{{ skill.years }}</v-card-text>
   </v-card>
 </template>
