@@ -19,27 +19,13 @@
             <v-card-title>Contact</v-card-title>
             <v-card-text>
               <v-row align="center" no-gutters>
-                <v-col>
-                  <v-icon>mdi-twitter</v-icon>
-                </v-col>
-                <v-col>
-                  @bigface0202
-                </v-col>
+                <v-btn class="text-none" variant="text" prepend-icon="mdi-twitter" href="https://twitter.com/bigface0202" target="_blank" rel="noopener">@bigface0202</v-btn>
               </v-row>
               <v-row align="center" no-gutters>
-                <v-col>
-                  <v-icon>mdi-linkedin</v-icon>
-                </v-col>
-                <v-col>
-                  Yusuke Kishishita
-                </v-col>
+                <v-btn class="text-none" variant="text" prepend-icon="mdi-linkedin" href="https://www.linkedin.com/in/yusuke-kishishita-56197b181/" target="_blank" rel="noopener">Yusuke Kishishita</v-btn>
               </v-row>
             </v-card-text>
           </v-card>
-          <v-card flat title="@bigface0202" prepend-icon="mdi-twitter" href="https://twitter.com/bigface0202" target="_blank" rel="noopener"/>
-        </v-row>
-        <v-row>
-          <v-card flat title="Yusuke Kishishita" prepend-icon="mdi-linkedin" href="https://www.linkedin.com/in/yusuke-kishishita-56197b181/" target="_blank" rel="noopener"/>
         </v-row>
       </v-col>
     </v-row>
