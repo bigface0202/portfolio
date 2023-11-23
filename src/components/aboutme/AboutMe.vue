@@ -6,7 +6,7 @@
       </v-col>
       <v-col class="about-me__row__col">
         <v-row>
-          <content-card title="Name" text="Yusuke Enami" />
+          <content-card title="Name" text="Yusuke Enami (Yusuke Kishishita)" />
         </v-row>
         <v-row>
           <content-card title="Hobby" text="Workout/Netflix/CarDriving/Hiking" />
