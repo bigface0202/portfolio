@@ -35,12 +35,16 @@ export default {
       // ]
     },
     {
-      name: 'Career',
+      name: 'CAREER',
       url: '#career'
     },
     {
-      name: 'Publications',
+      name: 'PUBLICATIONS',
       url: '#publications'
+    },
+    {
+      name: 'CV',
+      url: 'https://github.com/bigface0202/curriculum_vitae'
     }
   ]
 }
