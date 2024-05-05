@@ -4,22 +4,22 @@ export default {
     skills: [
       {
         title: 'Google Cloud',
-        years: '2 years',
+        years: '2.5 years',
         icon: 'mdi-google-cloud'
       },
       {
         title: 'Kubernetes',
-        years: '2 years',
+        years: '2.5 years',
         icon: 'mdi-kubernetes'
       },
       {
         title: 'Terraform',
-        years: '2 years',
+        years: '2.5 years',
         icon: 'mdi-terraform'
       },
       {
         title: 'Python',
-        years: '2 years',
+        years: '4 years',
         icon: 'mdi-language-python'
       },
       {
@@ -29,12 +29,12 @@ export default {
       },
       {
         title: 'C++',
-        years: '1 year',
+        years: '2 year',
         icon: 'mdi-language-cpp'
       },
       {
         title: 'Vue.js',
-        years: '1 year',
+        years: '2 year',
         icon: 'mdi-vuejs'
       }
     ]
