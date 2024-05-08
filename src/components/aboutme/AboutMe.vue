@@ -12,7 +12,7 @@
           <content-card title="Hobby" text="Workout/Netflix/Car/VideoGame" />
         </v-row>
         <v-row>
-          <content-card title="Working at" text="Future Architect, inc." />
+          <content-card title="Working at" text="Future Architect, Inc." />
         </v-row>
         <v-row>
           <v-card flat>
@@ -22,7 +22,7 @@
                 <v-btn class="text-none" variant="text" prepend-icon="mdi-twitter" href="https://twitter.com/bigface0202" target="_blank" rel="noopener">@bigface0202</v-btn>
               </v-row>
               <v-row align="center" no-gutters>
-                <v-btn class="text-none" variant="text" prepend-icon="mdi-linkedin" href="https://www.linkedin.com/in/yusuke-kishishita-56197b181/" target="_blank" rel="noopener">Yusuke Enami (Kishishita)</v-btn>
+                <v-btn class="text-none" variant="text" prepend-icon="mdi-linkedin" href="https://www.linkedin.com/in/yusuke-enami-56197b181/" target="_blank" rel="noopener">Yusuke Enami (Kishishita)</v-btn>
               </v-row>
             </v-card-text>
           </v-card>
