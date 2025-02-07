@@ -34,11 +34,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import '@/assets/sass/size.scss';
-html, body {
-  // height:100vh;
-  // width: 100vw;
-}
+@use '@/assets/sass/size.scss' as *;
 
 .portfolio {
   // height: 100vh;

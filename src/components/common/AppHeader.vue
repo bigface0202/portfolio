@@ -63,7 +63,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '@/assets/sass/colors.scss';
+@use '@/assets/sass/colors.scss' as *;
 
 .header {
   a:link { color: #000000; }

@@ -40,7 +40,7 @@ export default {
     ]
   }),
   getters: {
-    skills(state) {
+    skills (state) {
       return state.skills
     }
   }

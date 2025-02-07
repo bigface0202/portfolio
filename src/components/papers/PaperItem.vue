@@ -24,8 +24,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '@/assets/sass/colors.scss';
-@import '@/assets/sass/size.scss';
+@use '@/assets/sass/colors.scss' as *;
+@use '@/assets/sass/size.scss' as *;
 
 .mypapers-item {
   &__list {

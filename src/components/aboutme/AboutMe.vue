@@ -42,7 +42,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '@/assets/sass/size.scss';
+@use '@/assets/sass/size.scss' as *;
 
 .about-me {
   padding-top: 30px;

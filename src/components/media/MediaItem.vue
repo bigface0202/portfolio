@@ -19,7 +19,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-@import '@/assets/sass/size.scss';
+@use '@/assets/sass/size.scss' as *;
 .media-card {
   margin: $unit_size * 2;
   width: 220px;
