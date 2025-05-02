@@ -9,10 +9,10 @@
           <content-card title="Name" text="Yusuke Enami (Yusuke Kishishita)" />
         </v-row>
         <v-row>
-          <content-card title="Hobby" text="Workout/Netflix/Car/VideoGame" />
+          <content-card title="Hobby" text="Weight Lifting/Netflix/Car/Video Game" />
         </v-row>
         <v-row>
-          <content-card title="Working at" text="Future Architect, Inc." />
+          <content-card title="Working at" text="Axelspace Corporation" />
         </v-row>
         <v-row>
           <v-card flat>
