@@ -65,6 +65,14 @@ export default {
         desc: 'IT Consultant',
         icon: 'mdi-office-building',
         color: 'green lighten-2'
+      },
+      {
+        id: 't9',
+        year: 'May, 2025',
+        org: 'Axelspace Corporation',
+        desc: 'Satellite System Automation Software Engineer',
+        icon: 'mdi-office-building',
+        color: 'green lighten-2'
       }
     ]
   }),

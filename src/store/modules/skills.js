@@ -19,7 +19,7 @@ export default {
       },
       {
         title: 'Python',
-        years: '4 years',
+        years: '6 years',
         icon: 'mdi-language-python'
       },
       {
